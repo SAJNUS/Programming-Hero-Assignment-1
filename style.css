@@ -56,6 +56,12 @@ body {
   border-radius: 6px;
   cursor: pointer;
   font-weight: 500;
+  transition: transform 0.3s ease;
+}
+
+.nav-button button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
 .hero {
@@ -128,6 +134,12 @@ body {
   font-size: 16px;
   border-radius: 8px;
   cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.button-primary:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
 .button-secondary {
@@ -138,6 +150,12 @@ body {
   font-size: 16px;
   border-radius: 8px;
   cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.button-secondary:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
 .problem {
@@ -319,6 +337,12 @@ body {
   border-radius: 6px;
   cursor: pointer;
   margin-bottom: 16px;
+  transition: transform 0.3s ease;
+}
+
+.cta-box button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
 .small-text {
